@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Pallet</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "landingPage.css" rel = "stylesheet">
+    <title>Village Vision</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon href="resources/PalletLogo.png" />
+      </head>
+	<style>
+		* {
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			background-color: #f2f2f2;
+		}
+		
+		form {
+			background-color: #ffffff;
+			border: 1px solid #cccccc;
+			margin: 50px auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			border: 1px solid #cccccc;
+			padding: 10px;
+			width: 100%;
+		}
+		
+		textarea {
+			height: 200px;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			border: none;
+			color: #ffffff;
+			cursor: pointer;
+			padding: 10px;
+			width: 100%;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		
+		.notice {
+			background-color: #ffcccc;
+			border: 1px solid #ff9999;
+			margin: 50px auto;
+			max-width: 800px;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = "index.html">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/PalletLogo.png">
+                </div>
+                <div class = "logoPallet">
+                    PalletPals
+                </div>
+            </a>
+            
+        </div>
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+                <a class = "about" href = "sponsor.html">Sponsor</a>
+                <a class = "project" href = "#">Project</a>
+                <a class = "contact" href = "contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+	<div class="notice">
+		<p>We regret to announce that our organization will no longer be continuing the Village Vision project. However, we are pleased to announce that we have successfully transferred the ownership and all related responsibilities of this project to Pallet Shelter,
+             a reputable organization in the industry. Effective immediately, Pallet Shelter will take over the project's management, development, and maintenance.
+              They have the expertise, experience, and resources to ensure a smooth transition and deliver the same level of dedication and commitment that we have provided 
+              to this project. We would like to express our sincere gratitude to our valued clients and partners for your support and cooperation during our involvement in this project, 
+              and we are confident that Pallet Shelter will continue to provide the same level of quality and service that you have come to expect.  Link: <a href="https://palletshelter.com/">https://palletshelter.com/</a></p>
+	</div>
+	
+	<form action="#" method="POST">
+		<h1>Contact Us</h1>
+		
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Your email" required>
+		
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" placeholder="Your message" required></textarea>
+		
+		<input type="submit" value="Send">
+	</form>
+	
+	<div class = "layer4">
+        <div class = "layer4Bg">
+        </div>
+    </div>
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "https://palletshelter.com/" target = "_blank">
+                Sponsored by: PalletShelter
+            </a>
+        </div>
+    </div>
+	</body>
+	</html>

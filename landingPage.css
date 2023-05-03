@@ -474,6 +474,17 @@ body {
     font-family: "izayoi";
 }
 
+.layer5 {
+    background-color: blue;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media (max-width: 1100px) {
     .layer1Container {
         flex-direction: column;
