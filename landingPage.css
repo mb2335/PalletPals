@@ -330,7 +330,7 @@ body {
 }
 
 .cardSource {
-    color: purple;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 1.5em;
     margin-top: 0.1em;
@@ -388,7 +388,7 @@ body {
 .layer3QuoteFrom {
     text-align: center;
     margin: 1em 2em 0em 2em;
-    font-size: 4em;
+    font-size: 3em;
     color: black;
     font-weight: lighter;
 }
