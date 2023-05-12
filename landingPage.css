@@ -380,6 +380,12 @@ body {
     font-family: "kawashiro";
 }
 
+.layer3Text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "kawashiro";
+  }
+
 
 .layer3Quote {
     font-size: 5em;
